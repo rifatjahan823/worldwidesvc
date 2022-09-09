@@ -49,6 +49,7 @@ Keyword:  Worldwide Services, Worldwide Services Plumstead, 92a Plumstead High S
     integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
     crossorigin="anonymous" />
 
+
 </head>
 
 <body>
@@ -73,24 +74,24 @@ Keyword:  Worldwide Services, Worldwide Services Plumstead, 92a Plumstead High S
   <!-- ======= Header ======= -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container">
-      <a href="index.html" class="img-fluid"><img src="frontend/assets/img/logo/logo.png" alt=""
-        ></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <a href="index.html" class="img-fluid"><img src="frontend/assets/img/logo/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home </a >
+            <a class="nav-link active" href="index.html">Home </a>
           </li>
           <li class="nav-item">
-            <a  class="nav-link" href="about.html">About Us</a >
+            <a class="nav-link" href="about.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a   class="nav-link" href="services.html">Services</a >
+            <a class="nav-link" href="services.html">Services</a>
           </li>
           <li class="nav-item">
-            <a  class="nav-link"  href="contact.html">Contact Us</a >
+            <a class="nav-link" href="contact.html">Contact Us</a>
           </li>
           <a class="nav-link join" href="login.html">Join Us</a>
         </ul>
@@ -99,13 +100,14 @@ Keyword:  Worldwide Services, Worldwide Services Plumstead, 92a Plumstead High S
   </nav>
   <!-- End Header
 
-
-  <!-- ======= Hero Section ======= -->
-    <section class="hero_bg" style="background-image:url('frontend/assets/img/banner/home-bannwer-web.png'); background-size:cover;padding:20% 0;background-position: center;position: relative;">
-      <div class="container">
-        <p class="text-white hero_p text-center">We make a digital transformation to your <br> Business What we are offering,</p>
-      </div>
-    </section>
+<!- ======= Hero Section ======= -->
+  <section class="hero_bg"
+    style="background-image:url('frontend/assets/img/banner/home-bannwer-web.png'); background-size:cover;padding:20% 0;background-position: center;position: relative;">
+    <div class="container">
+      <p class="text-white hero_p text-center">We make a digital transformation to your <br> Business What we are
+        offering,</p>
+    </div>
+  </section>
   <main id="main">
 
     <!-- ======= Featured Services Section ======= -->
@@ -262,8 +264,8 @@ Keyword:  Worldwide Services, Worldwide Services Plumstead, 92a Plumstead High S
       <div class="container">
         <h3 class="ps-0 ps-md-5">Loved by so many people <br> around the world</h3>
         <div class="carusel_section mt-4">
-          <div  class="owl-carousel owl-theme px-5 pt-4">
-            <div class="item ">
+          <div id="carusel" class="owl-carousel owl-theme px-5 pt-4">
+            <div class="item carusel-item">
               <img style="width:30px" src="/frontend/assets/img/Shape.png" alt="">
               <p class="mt-1 mb-5 pb-3">For all my Freelancer / Small Agency followers, I wish I’d discovered Oval long
                 ago -
@@ -276,7 +278,7 @@ Keyword:  Worldwide Services, Worldwide Services Plumstead, 92a Plumstead High S
                 </div>
               </div>
             </div>
-            <div class="item">
+            <div class="item carusel-item">
               <img style="width:30px" src="/frontend/assets/img/Shape.png" alt="">
               <p class="mt-1 mb-4">Oval is probably my all time favorite freelance tool. hands down. the team is super
                 responsive and accessible when i have questions.</p>
@@ -288,7 +290,7 @@ Keyword:  Worldwide Services, Worldwide Services Plumstead, 92a Plumstead High S
                 </div>
               </div>
             </div>
-            <div class="item">
+            <div class="item carusel-item">
               <img style="width:30px" src="/frontend/assets/img/Shape.png" alt="">
               <p class="mt-1 mb-5 pb-3">For all my Freelancer / Small Agency followers, I wish I’d discovered Oval long
                 ago -
@@ -301,7 +303,7 @@ Keyword:  Worldwide Services, Worldwide Services Plumstead, 92a Plumstead High S
                 </div>
               </div>
             </div>
-            <div class="item">
+            <div class="item carusel-item">
               <img style="width:30px" src="/frontend/assets/img/Shape.png" alt="">
               <p class="mt-1 mb-4">Oval is probably my all time favorite freelance tool. hands down. the team is super
                 responsive and accessible when i have questions.</p>
@@ -314,59 +316,66 @@ Keyword:  Worldwide Services, Worldwide Services Plumstead, 92a Plumstead High S
               </div>
             </div>
           </div>
-
         </div>
-        <!-- --------============-------- -->
-        <div class="carusel_logo row g-4 align-items-center justify-content-center px-0">
-          <div class="col-md-2 col-4 text-center">
-            <img class="img-fluid" src="frontend//assets/img/carusel-logo/microsoft.png" alt="">
+        <!-- -----------============---- -->
+        <!-- --------===========----------- -->
+        <div class="img-carusel">
+          <div id="img-carusel" class="owl-carousel owl-theme px-5 pt-4">
+            <div class="item">
+              <img src="frontend//assets/img/carusel-logo/microsoft.png" alt="">
+            </div>
+            <div class="item">
+              <img  src="frontend//assets/img/carusel-logo/google-newsep-2015-seeklogo.com.png" alt="">
+            </div>
+            <div class="item">
+              <img  src="frontend//assets/img/carusel-logo/Fill-1.png" alt="">
+            </div>
+            <div class="item">
+              <img  src="frontend//assets/img/carusel-logo/automatic.png" alt="">
+            </div>
+            <div class="item">
+              <img  src="frontend//assets/img/carusel-logo/Bitmap.png" alt="">
+            </div>
+            <div class=" item">
+              <img  src="frontend//assets/img/carusel-logo/Bitmap (1).png" alt="">
+            </div>
           </div>
-          <div class="col-md-2 col-4 text-center">
-            <img class="img-fluid" src="frontend//assets/img/carusel-logo/google-newsep-2015-seeklogo.com.png" alt="">
-          </div>
-          <div class="col-md-2 col-4  text-center">
-            <img class="img-fluid" src="frontend//assets/img/carusel-logo/Fill-1.png" alt="">
-          </div>
-          <div class="col-md-2 col-4 text-center">
-            <img class="img-fluid" src="frontend//assets/img/carusel-logo/automatic.png" alt="">
-          </div>
-          <div class="col-md-2 col-4 text-center">
-            <img class="img-fluid" src="frontend//assets/img/carusel-logo/Bitmap.png" alt="">
-          </div>
-          <div class=" col-md-2 col-4 text-center">
-            <img class="img-fluid" src="frontend//assets/img/carusel-logo/Bitmap (1).png" alt="">
-          </div>
+          <p class="text-center text-white mt-5"
+            style="font-family:'Poppins', sans-serif ;font-weight: 400;font-size: 14px;">Some of the many companies that
+            rely on Oval to manage their project </p>
         </div>
-        <p class="text-center text-white mt-5"
-          style="font-family:'Poppins', sans-serif ;font-weight: 400;font-size: 14px;">Some of the many companies that
-          rely on Oval to manage their project </p>
+      </div>
       </div>
     </section>
+
     <!-- ------------trust_us------------ -->
     <section class="trust-section text-center">
       <div class="container">
         <h2>WHO TRUST US</h2>
         <p>Partner Success Stories <i class="bi bi-angle-right"></i></p>
-        <div class="carusel_logo row g-4 align-items-center justify-content-center mt-5">
-          <div class="col-md-2 col-4 text-center">
-            <img class="img-fluid" src="frontend//assets/img/trust-img/google.png" alt="">
-          </div>
-          <div class="col-md-2 col-4 text-center">
-            <img class="img-fluid" src="frontend//assets/img/trust-img/Amazon logo.png" alt="">
-          </div>
-          <div class="col-md-2 col-4  text-center">
-            <img class="img-fluid" src="frontend//assets/img/trust-img/intel.png" alt="">
-          </div>
-          <div class="col-md-2 col-4 text-center">
-            <img class="img-fluid" src="frontend//assets/img/trust-img/gillette.png" alt="">
-          </div>
-          <div class="col-md-2 col-4 text-center">
-            <img class="img-fluid" src="frontend//assets/img/trust-img/cannon.png" alt="">
-          </div>
-          <div class=" col-md-2 col-4 text-center">
-            <img class="img-fluid" src="frontend//assets/img/trust-img/Atlassian logo.png" alt="">
-          </div>
-        </div>
+          <!-- --------===========----------- -->
+          <div class="img-carusel">
+            <div id="img-carusel2" class="owl-carousel owl-theme px-5 pt-4">
+              <div class="item">
+                <img src="frontend//assets/img/trust-img/Amazon logo.png" alt="">
+              </div>
+              <div class="item">
+                <img  src="frontend//assets/img/trust-img/Atlassian logo.png" alt="">
+              </div>
+              <div class="item">
+                <img  src="frontend//assets/img/trust-img/cannon.png" alt="">
+              </div>
+              <div class="item">
+                <img  src="frontend//assets/img/trust-img/gillette.png" alt="">
+              </div>
+              <div class="item">
+                <img  src="frontend//assets/img/trust-img/google.png" alt="">
+              </div>
+              <div class=" item">
+                <img  src="frontend//assets/img/trust-img/intel.png" alt="">
+              </div>
+            </div>
+          
       </div>
     </section>
 
@@ -381,10 +390,13 @@ Keyword:  Worldwide Services, Worldwide Services Plumstead, 92a Plumstead High S
                 <!-- ---------==========------- -->
                 <h2>Follow US</h2>
                 <div class="d-flex align-items-center ps-sm-5 ps-md-0 ms-5 ms-md-0">
-                    <a href="#"><img class="img-fluid ps-5 ps-md-0 ms-md-0 ms-5" src="frontend/assets/img/footer-icon/Facebook.png" alt=""></a>
-                    <a href="#"><img class="img-fluid px-4 mx-2" src="frontend/assets/img/footer-icon/linkedin.png" alt=""></a>
-                    <a href="#"><img class="img-fluid" src="frontend/assets/img/footer-icon/Instagram.png" alt=""></a>
-                    <a href="#"><img class="img-fluid ps-4 ms-2"  src="frontend/assets/img/footer-icon/linkedin.png" alt=""></a>
+                  <a href="#"><img class="img-fluid ps-5 ps-md-0 ms-md-0 ms-5"
+                      src="frontend/assets/img/footer-icon/Facebook.png" alt=""></a>
+                  <a href="#"><img class="img-fluid px-4 mx-2" src="frontend/assets/img/footer-icon/linkedin.png"
+                      alt=""></a>
+                  <a href="#"><img class="img-fluid" src="frontend/assets/img/footer-icon/Instagram.png" alt=""></a>
+                  <a href="#"><img class="img-fluid ps-4 ms-2" src="frontend/assets/img/footer-icon/linkedin.png"
+                      alt=""></a>
                 </div>
               </div>
             </div>
@@ -409,7 +421,7 @@ Keyword:  Worldwide Services, Worldwide Services Plumstead, 92a Plumstead High S
                   <li><a href="mailto:enquiries@worldwidesvc.com">enquiries@worldwidesvc.com</a></li>
                 </div>
                 <h2>Office</h2>
-                <div  class="quick_link">
+                <div class="quick_link">
                   <li><a href="tel:+4402088557777">+44 (0) 20 8855 7777</a></li>
                   <li><a href="Mon to Fri -9am to 5pm">Mon to Fri -9am to 5pm</a></li>
                 </div>
@@ -417,7 +429,7 @@ Keyword:  Worldwide Services, Worldwide Services Plumstead, 92a Plumstead High S
             </div>
             <div class="col-lg-3 col-md-6 col-12">
               <div class="footer-top-content">
-                <p >Worldwide West 2 East Services
+                <p>Worldwide West 2 East Services
                   Limited, a company incorporated in England with registered number 07684314 whose registered address is
                   at 92a Plumstead High Street, London, SE18 1LS is authorised by the Financial Conduct Authority
                   (“FCA”) under the Payment Services Regulations 2009 (SI 2009 No. 209) (the “Regulations”) for the
@@ -433,7 +445,7 @@ Keyword:  Worldwide Services, Worldwide Services Plumstead, 92a Plumstead High S
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-                <p>© 2022 Worldwideservices. All rights reserved.</p>
+              <p>© 2022 Worldwideservices. All rights reserved.</p>
             </div>
           </div>
         </div>
@@ -488,29 +500,73 @@ Keyword:  Worldwide Services, Worldwide Services Plumstead, 92a Plumstead High S
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <!-- custom JS code after importing jquery and owl -->
     <script type="text/javascript">
+
+
+
+      // --------=========-
       $(document).ready(function () {
-        $(".owl-carousel").owlCarousel();
+        $('#carusel').owlCarousel({
+          loop: true,
+          margin: 20,
+          nav: true,
+          autoplay: true,
+          responsive: {
+            0: {
+              items: 1
+            },
+            768: {
+              items: 2
+            },
+            991: {
+              items: 2
+            }
+          }
+        })
+        $('#img-carusel').owlCarousel({
+
+          loop: true,
+          margin: 20,
+          nav: true,
+          autoplay: true,
+          responsive: {
+            0: {
+              items: 6
+            },
+            768: {
+              items: 6
+            },
+            991: {
+              items: 6
+            }
+          }
+        })
+        $('#img-carusel2').owlCarousel({
+
+          loop: true,
+          margin: 20,
+          nav: true,
+          autoplay: true,
+          responsive: {
+            0: {
+              items: 6
+            },
+            768: {
+              items: 6
+            },
+            991: {
+              items: 6
+            }
+          }
+        })
       });
 
-      $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 20,
-        nav: true,
-        autoplay: true,
-        responsive: {
-          0: {
-            items: 1
-          },
-          768: {
-            items: 2
-          },
-          991: {
-            items: 2
-          }
-        }
-      })
+
     </script>
 
+
+
+
+    </script>
 
 </body>
 

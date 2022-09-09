@@ -1038,13 +1038,13 @@ h6 {
     padding: 70px 0;
 }
 
-.item {
+.carusel-item {
     background-color: white;
     border-radius: 12px;
     padding: 30px;
 }
 
-.item p {
+.carusel-item p {
     color: black;
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
@@ -1067,7 +1067,11 @@ h6 {
     font-weight: 400;
     font-size: 14px !important;
 }
-
+.img-carusel img{
+    width: 130px !important;
+    height: 100px !important;
+  object-fit: contain;
+}
 .home_carusel h3 {
     color: white;
     font-size: 36px;
