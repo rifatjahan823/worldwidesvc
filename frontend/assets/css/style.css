@@ -2947,7 +2947,9 @@ desktop:1440px
     background-image: url('/frontend/assets/img/ic_Cevron\ Right.png');
     background-repeat: no-repeat;
 }
-
+.img-carusel .owl-theme .owl-dots, .owl-theme .owl-nav {
+ display: none;
+}
 @media screen and (max-width:1390px) {
     .service-carusel .owl-carousel .owl-nav button.owl-prev>span {
         top: calc(50% - 10px);
